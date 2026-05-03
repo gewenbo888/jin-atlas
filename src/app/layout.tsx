@@ -50,6 +50,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Jin Language Atlas · 晋语图谱" }],
     title: "Jin Language Atlas — Jin Chinese, regional culture, and historical roots",
     description:
       "A bilingual atlas of Jin Chinese — definition, distribution, phonology, dialect map, the Zhao State connection, geography, opera, and a Jin-vs-Mandarin comparison engine.",
@@ -60,6 +61,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Jin Language Atlas",
     description:
